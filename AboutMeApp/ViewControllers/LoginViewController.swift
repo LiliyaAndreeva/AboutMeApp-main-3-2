@@ -8,7 +8,7 @@ final class LoginViewController: UIViewController {
     
     @IBOutlet weak var logInButton: UIButton!
     
-    let person = User.getUsers()
+    let person = User.getUser()
     
     
     // MARK: - override funcs

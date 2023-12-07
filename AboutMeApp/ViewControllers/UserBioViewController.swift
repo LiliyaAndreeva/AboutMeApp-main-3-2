@@ -12,8 +12,8 @@ final class UserBioViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        userBio.title = "\(User.getUsers().person.name) Bio"
-        personsDescribe.text = User.getUsers().person.describe
+        userBio.title = "\(User.getUser().person.name) Bio"
+        personsDescribe.text = User.getUser().person.describe
     }
     
 }
